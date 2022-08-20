@@ -1,8 +1,8 @@
 ![Moonrise logo](docs/media/favicon.ico) 
 
-# Moonrise
+# SpecterCraftweb
 
-A simple, lightweight, responsive landing page template for a Minecraft server. Integrates with Discord, Minecraft server status, and GitHub Pages to host a free website.
+Moonlight projesinin temelinden SpecterCraft Roleplay Sunucusu için hazırlanmış websitesi. Discord Entegrasyonu, Minecraft Sunucu Durumu ve Github Pages özelliklerine sahiptir. daha bitmedi :3
 
 Features:
 - Shows the server's Minecraft Java version automatically
