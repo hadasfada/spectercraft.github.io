@@ -1,0 +1,12 @@
+{
+  "minimumVersion" : 1,
+  "packages" : [
+    {
+      "title" : "SPC Test",
+      "name" : "SpecterCraft Test",
+      "version" : "2023-04-29-21-29-11",
+      "location" : "spectercraft-test.json",
+      "priority" : 0
+    }
+  ]
+}

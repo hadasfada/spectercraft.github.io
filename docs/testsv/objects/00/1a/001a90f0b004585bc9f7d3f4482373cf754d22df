@@ -1,0 +1,221 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.MainMenuScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = screenshots/2022-03-04_19.12.21.png
+  action = texturizebackground
+}
+
+customization {
+  baseheight = 1080
+  action = autoscale
+  basewidth = 1920
+}
+
+customization {
+  keepaspectratio = true
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = -14
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = 9
+}
+
+customization {
+  identifier = %id=604346%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = -35
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 208
+  width = 268
+  action = deep_customization_element:title_screen_forge_top
+  actionid = eda46fd2-49a8-479d-8a1f-47e45b4a83d01666354922224
+  y = 4
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 2
+  width = 108
+  action = deep_customization_element:title_screen_branding
+  actionid = 294b2a88-9d27-45e6-8c5b-5ba4ba6f01831666354922224
+  y = 318
+  height = 40
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 455
+  width = 228
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = 52dce797-73b8-4ab0-bd52-ab273170938b1666354922224
+  y = 340
+  height = 9
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 445
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = 69fdb770-a08d-408d-af96-3ca3894e4b211666354922224
+  y = 190
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 183
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = edcf6d7f-8919-4deb-8380-9835e6ebcb6c1666354922225
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = original
+  splash_color = #ffff00
+  hidden = true
+  x = 0
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = 12d17b62-64f5-486e-bc00-0c836ba0871b1666354922225
+  y = 0
+  height = 30
+}
+
+customization {
+  showname = true
+  orientation = top-left
+  crouching = false
+  x = 175
+  slim = false
+  actionid = c7abe84b-d3da-40d3-915d-d832f13671191646157610149
+  action = addentity
+  y = 215
+  scale = 30
+  playername = %playername%
+  parrot = true
+}
+
+customization {
+  orientation = top-centered
+  delayappearanceseconds = 0.5
+  path = spectercraft1.png
+  fadein = true
+  fadeinspeed = 1.0
+  x = -144
+  width = 289
+  action = addtexture
+  actionid = b7ca437e-2089-4eaa-a24c-7db52e619f181646307422848
+  y = -9
+  delayappearance = true
+  delayappearanceeverytime = false
+  height = 164
+}
+
+customization {
+  orientation = top-left
+  basecolor = #ffff00
+  shadow = true
+  rotation = -20.0
+  scale = 0.5
+  refresh = false
+  bouncing = true
+  vanilla-like = false
+  x = 369
+  actionid = 9ee9c21b-7b14-4d99-917d-78c00b5cc6731660487938842
+  action = addsplash
+  y = 101
+  text = beta
+}
+
+customization {
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  x = -100
+  width = 200
+  actionid = aaffbd47-513c-4e54-92f1-c2026cc50e5e1660487976132
+  action = addbutton
+  y = 31
+  label = Discord
+  value = https://discord.gg/rVykrpqHRh
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = joinserver
+  x = -100
+  width = 200
+  actionid = 706d722e-4974-4b38-bfe6-8da6e22e7ef01660488661346
+  action = addbutton
+  y = -13
+  label = Sunucuya Bağlan
+  value = 193.164.6.53:26676
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  action = setbuttondescription
+  description = oyunun kasıyorsa bize ulaş bence
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  action = setbuttondescription
+  description = Seni özleyeceğim... teşekkür ederim yine de <3
+}
+

@@ -1,0 +1,90 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.IngameMenuScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_feedback_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_options_button%
+  orientation = mid-centered
+  x = -102
+  action = movebutton
+  y = 2
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_options_button%
+  width = 204
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_report_bugs_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_report_bugs_button%
+  orientation = top-centered
+  x = -102
+  action = movebutton
+  y = 128
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_report_bugs_button%
+  width = 204
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_lan_button%
+  orientation = top-left
+  x = 542
+  action = movebutton
+  y = 340
+}
+
+customization {
+  identifier = %id=604354%
+  action = hidebutton
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  description = Hata mı var? Yardım mı lazım? Hemen Discord'a alalım seni
+  label = Bir şey mi oldu?
+  loopbackgroundanimations = true
+  x = 218
+  width = 204
+  actionid = 966548c3-d11d-4d88-91bc-302e273e3bb71660489801642
+  action = addbutton
+  y = 134
+  value = https://discord.gg/https://discord.com/invite/rVykrpqHRh
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_disconnect_button%
+  action = setbuttondescription
+  description = Ufak bir mola mı?
+}
+

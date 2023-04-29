@@ -1,0 +1,16 @@
+{
+  "allowMovement": {
+    "net.minecraft.client.gui.screen.IngameMenuScreen": true,
+    "fuzs.bettermodsbutton.client.handler.ModScreenHandler$1": true,
+    "fuzs.configmenusforge.client.gui.screens.ConfigScreen$Main": true,
+    "fuzs.configmenusforge.client.gui.screens.ConfigScreen$Sub": true,
+    "me.flashyreese.mods.reeses_sodium_options.client.gui.SodiumVideoOptionsScreen": true,
+    "net.coderbot.iris.gui.screen.ShaderPackScreen": true,
+    "me.shedaniel.clothconfig2.forge.gui.ClothConfigScreen": true,
+    "net.minecraft.client.gui.screen.PackScreen": true,
+    "dlovin.inventoryhud.gui.config.InventoryConfigScreen": true,
+    "dlovin.inventoryhud.gui.config.ArmorConfigScreen": true,
+    "xaero.map.gui.GuiMap": true
+  },
+  "hideBackground": {}
+}

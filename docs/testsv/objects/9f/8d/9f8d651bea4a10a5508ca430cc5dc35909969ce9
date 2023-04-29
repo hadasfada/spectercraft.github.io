@@ -1,0 +1,6 @@
+
+["Jungle Fish Spawn Weight"]
+	#Spawn weight of Red Pandas
+	#Range: 1 ~ 1000
+	redpanda_spawn_weight = 30
+

@@ -1,0 +1,34 @@
+#Button Bindings
+#Thu Jun 09 15:15:33 EEST 2022
+key.screenshot=
+controllable.key.pickupItem=controllable.button.a
+controllable.key.moveLeft=controllable.button.dpad_left
+key.sprint=controllable.button.left_thumb_stick
+controllable.key.pauseGame=controllable.button.start
+key.playerlist=controllable.button.select
+key.togglePerspective=controllable.button.dpad_up
+controllable.key.quickMove=controllable.button.b
+controllable.key.previousRecipeTab=controllable.button.left_trigger
+controllable.key.previousHotbarItem=controllable.button.left_bumper
+controllable.key.moveDown=controllable.button.dpad_down
+controllable.key.nextRecipeTab=controllable.button.right_trigger
+key.jump=controllable.button.a
+controllable.key.previousCreativeTab=controllable.button.left_bumper
+controllable.key.debugInfo=
+controllable.key.radial_menu=controllable.button.dpad_right
+key.drop=controllable.button.dpad_down
+key.advancements=
+key.attack=controllable.button.right_trigger
+controllable.key.nextCreativeTab=controllable.button.right_bumper
+key.swapOffhand=controllable.button.x
+key.use=controllable.button.left_trigger
+key.inventory=controllable.button.y
+controllable.key.nextHotbarItem=controllable.button.right_bumper
+key.fullscreen=
+controllable.key.moveUp=controllable.button.dpad_up
+key.pickItem=controllable.button.dpad_left
+key.smoothCamera=
+key.spectatorOutlines=
+key.sneak=controllable.button.right_thumb_stick
+controllable.key.splitStack=controllable.button.x
+controllable.key.moveRight=controllable.button.dpad_right

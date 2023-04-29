@@ -1,0 +1,59 @@
+type = hud
+
+customization-meta {
+  randomgroup = 1
+  keepaspectratio = false
+  backgroundimage = screenshots/2022-03-04_19.07.08.png
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+  backgroundcolor = 
+}
+
+customization {
+  visible = false
+  action = editlogo
+}
+
+customization {
+  visible = false
+  action = editprogressbar
+}
+
+customization {
+  x = 0
+  action = editforgestatustext
+  y = 0
+}
+
+customization {
+  x = 2
+  action = editforgememoryinfo
+  y = 10
+  scale = 0.5
+}
+
+customization {
+  orientation = mid-centered
+  x = 0
+  width = 361
+  actionid = c5e0fbe9-271b-43fc-8e6b-f4a875e7e7491638910608447
+  y = 154
+  action = addcustomprogressbar
+  height = 20
+  direction = right
+  barcolor = #ffffff
+  backgroundcolor = #5c5c5c80
+}
+
+customization {
+  path = spectercraft1.png
+  orientation = mid-centered
+  x = 254
+  width = 166
+  action = addtexture
+  actionid = 367183f7-acc3-4e2a-9c52-8ae86fd009cb1639175886533
+  y = 132
+  height = 95
+}
+

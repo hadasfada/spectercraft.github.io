@@ -1,0 +1,7 @@
+#This file stores configuration options for Iris, such as the currently active shaderpack
+#Sat Apr 29 21:10:42 TRT 2023
+enableDebugOptions=false
+disableUpdateMessage=false
+enableShaders=false
+maxShadowRenderDistance=16
+shaderPack=rethinking-voxels_beta18d.zip
